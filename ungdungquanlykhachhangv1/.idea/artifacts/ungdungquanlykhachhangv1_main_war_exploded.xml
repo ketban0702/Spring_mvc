@@ -1,0 +1,110 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ungdungquanlykhachhangv1_main:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/ungdungquanlykhachhangv1_main_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ungdungquanlykhachhangv1_main" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: org.springframework:spring-webmvc:4.3.17.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-web:4.3.17.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-jpa:1.11.12.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-context:4.3.17.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-orm:4.3.17.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-aop:4.3.17.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-jdbc:4.3.17.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-tx:4.3.17.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework.data:spring-data-commons:1.13.12.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-beans:4.3.17.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-expression:4.3.17.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-core:4.3.17.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-entitymanager:5.3.0.Final" />
+          <element id="library" level="project" name="Gradle: org.hibernate:hibernate-core:5.3.0.Final" />
+          <element id="library" level="project" name="Gradle: org.thymeleaf:thymeleaf-spring4:3.0.9.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.thymeleaf:thymeleaf:3.0.9.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.slf4j:jcl-over-slf4j:1.7.25" />
+          <element id="library" level="project" name="Gradle: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Gradle: mysql:mysql-connector-java:8.0.11" />
+          <element id="library" level="project" name="Gradle: org.jacoco:jacoco-maven-plugin:0.8.1" />
+          <element id="library" level="project" name="Gradle: org.apache.maven.reporting:maven-reporting-impl:2.1" />
+          <element id="library" level="project" name="Gradle: commons-validator:commons-validator:1.2.0" />
+          <element id="library" level="project" name="Gradle: org.apache.maven.doxia:doxia-site-renderer:1.1.2" />
+          <element id="library" level="project" name="Gradle: org.apache.maven.doxia:doxia-module-xhtml:1.1.2" />
+          <element id="library" level="project" name="Gradle: org.apache.maven.doxia:doxia-module-fml:1.1.2" />
+          <element id="library" level="project" name="Gradle: org.apache.maven.doxia:doxia-core:1.1.2" />
+          <element id="library" level="project" name="Gradle: commons-httpclient:commons-httpclient:3.1" />
+          <element id="library" level="project" name="Gradle: commons-digester:commons-digester:1.6" />
+          <element id="library" level="project" name="Gradle: commons-beanutils:commons-beanutils:1.7.0" />
+          <element id="library" level="project" name="Gradle: commons-logging:commons-logging:1.2" />
+          <element id="library" level="project" name="Gradle: org.hibernate.common:hibernate-commons-annotations:5.0.3.Final" />
+          <element id="library" level="project" name="Gradle: org.jboss.logging:jboss-logging:3.3.2.Final" />
+          <element id="library" level="project" name="Gradle: javax.persistence:javax.persistence-api:2.2" />
+          <element id="library" level="project" name="Gradle: org.javassist:javassist:3.22.0-GA" />
+          <element id="library" level="project" name="Gradle: net.bytebuddy:byte-buddy:1.8.0" />
+          <element id="library" level="project" name="Gradle: antlr:antlr:2.7.7" />
+          <element id="library" level="project" name="Gradle: org.jboss.spec.javax.transaction:jboss-transaction-api_1.2_spec:1.0.1.Final" />
+          <element id="library" level="project" name="Gradle: org.jboss:jandex:2.0.3.Final" />
+          <element id="library" level="project" name="Gradle: com.fasterxml:classmate:1.3.0" />
+          <element id="library" level="project" name="Gradle: dom4j:dom4j:1.6.1" />
+          <element id="library" level="project" name="Gradle: com.google.protobuf:protobuf-java:2.6.0" />
+          <element id="library" level="project" name="Gradle: org.aspectj:aspectjrt:1.8.13" />
+          <element id="library" level="project" name="Gradle: org.apache.maven.shared:file-management:1.2.1" />
+          <element id="library" level="project" name="Gradle: org.apache.maven:maven-plugin-api:2.0.10" />
+          <element id="library" level="project" name="Gradle: org.apache.maven:maven-project:2.0.10" />
+          <element id="library" level="project" name="Gradle: org.apache.maven.shared:maven-shared-io:1.1" />
+          <element id="library" level="project" name="Gradle: org.apache.maven:maven-artifact-manager:2.0.10" />
+          <element id="library" level="project" name="Gradle: org.apache.maven:maven-artifact:2.0.10" />
+          <element id="library" level="project" name="Gradle: org.apache.maven:maven-settings:2.0.10" />
+          <element id="library" level="project" name="Gradle: org.apache.maven:maven-profile:2.0.10" />
+          <element id="library" level="project" name="Gradle: org.apache.maven:maven-model:2.0.10" />
+          <element id="library" level="project" name="Gradle: org.apache.maven:maven-plugin-registry:2.0.10" />
+          <element id="library" level="project" name="Gradle: org.apache.maven.reporting:maven-reporting-api:3.0" />
+          <element id="library" level="project" name="Gradle: org.apache.maven.doxia:doxia-sink-api:1.1.2" />
+          <element id="library" level="project" name="Gradle: org.apache.maven.doxia:doxia-logging-api:1.1.2" />
+          <element id="library" level="project" name="Gradle: org.codehaus.plexus:plexus-velocity:1.1.7" />
+          <element id="library" level="project" name="Gradle: org.codehaus.plexus:plexus-container-default:1.0-alpha-30" />
+          <element id="library" level="project" name="Gradle: org.apache.maven.doxia:doxia-decoration-model:1.1.2" />
+          <element id="library" level="project" name="Gradle: org.codehaus.plexus:plexus-i18n:1.0-beta-7" />
+          <element id="library" level="project" name="Gradle: org.apache.maven.wagon:wagon-provider-api:1.0-beta-2" />
+          <element id="library" level="project" name="Gradle: org.apache.maven:maven-repository-metadata:2.0.10" />
+          <element id="library" level="project" name="Gradle: org.codehaus.plexus:plexus-utils:3.0.22" />
+          <element id="library" level="project" name="Gradle: org.jacoco:org.jacoco.agent:runtime:0.8.1" />
+          <element id="library" level="project" name="Gradle: org.jacoco:org.jacoco.report:0.8.1" />
+          <element id="library" level="project" name="Gradle: org.jacoco:org.jacoco.core:0.8.1" />
+          <element id="library" level="project" name="Gradle: org.attoparser:attoparser:2.0.4.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.unbescape:unbescape:1.1.5.RELEASE" />
+          <element id="library" level="project" name="Gradle: org.ow2.asm:asm-commons:6.0" />
+          <element id="library" level="project" name="Gradle: org.ow2.asm:asm-analysis:6.0" />
+          <element id="library" level="project" name="Gradle: org.ow2.asm:asm-util:6.0" />
+          <element id="library" level="project" name="Gradle: org.ow2.asm:asm-tree:6.0" />
+          <element id="library" level="project" name="Gradle: org.ow2.asm:asm:6.0" />
+          <element id="library" level="project" name="Gradle: org.codehaus.plexus:plexus-classworlds:1.2-alpha-9" />
+          <element id="library" level="project" name="Gradle: junit:junit:3.8.1" />
+          <element id="library" level="project" name="Gradle: org.codehaus.plexus:plexus-interpolation:1.1" />
+          <element id="library" level="project" name="Gradle: xerces:xercesImpl:2.8.1" />
+          <element id="library" level="project" name="Gradle: org.apache.velocity:velocity:1.5" />
+          <element id="library" level="project" name="Gradle: commons-lang:commons-lang:2.4" />
+          <element id="library" level="project" name="Gradle: commons-collections:commons-collections:3.2" />
+          <element id="library" level="project" name="Gradle: oro:oro:2.0.8" />
+          <element id="library" level="project" name="Gradle: commons-codec:commons-codec:1.2" />
+          <element id="library" level="project" name="Gradle: javax.servlet:javax.servlet-api:3.1.0" />
+          <element id="library" level="project" name="Gradle: org.mockito:mockito-all:1.10.19" />
+          <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-engine:5.2.0" />
+          <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-launcher:1.2.0" />
+          <element id="library" level="project" name="Gradle: org.springframework:spring-test:4.3.17.RELEASE" />
+          <element id="library" level="project" name="Gradle: com.h2database:h2:1.4.197" />
+          <element id="library" level="project" name="Gradle: org.hamcrest:hamcrest-all:1.3" />
+          <element id="library" level="project" name="Gradle: org.apiguardian:apiguardian-api:1.0.0" />
+          <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-engine:1.2.0" />
+          <element id="library" level="project" name="Gradle: org.junit.jupiter:junit-jupiter-api:5.2.0" />
+          <element id="library" level="project" name="Gradle: org.junit.platform:junit-platform-commons:1.2.0" />
+          <element id="library" level="project" name="Gradle: org.opentest4j:opentest4j:1.1.0" />
+          <element id="library" level="project" name="Gradle: org.hamcrest:hamcrest-core:1.3" />
+          <element id="library" level="project" name="Gradle: junit:junit:4.12" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="ungdungquanlykhachhangv1_main/web/Web Gradle : ungdungquanlykhachhangv1-1.0-SNAPSHOT.war" />
+    </root>
+  </artifact>
+</component>
