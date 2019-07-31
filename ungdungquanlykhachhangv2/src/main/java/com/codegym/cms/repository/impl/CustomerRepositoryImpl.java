@@ -36,9 +36,9 @@ public class CustomerRepositoryImpl implements CustomerRepository {
     @Override
     public void save(Customer model) {
         if(model.getId() != null){
-            em.merge(model);
+            em.merge(model);//cap nhat
         } else {
-            em.persist(model);
+            em.persist(model);//luu
         }
     }
 
