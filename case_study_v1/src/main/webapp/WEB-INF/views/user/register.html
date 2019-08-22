@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Form Registor</title>
+</head>
+<body>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<form th:object="${user}" th:action="@{/registor}" method="post" >
+    <table>
+        <tr>
+            <td>User:</td>
+            <td><input th:field="*{username}"></td>
+            <td th:if="${#fields.hasErrors('username')}" th:errors="*{username}">User Error</td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input th:field="*{password}"></td>
+            <td th:if="${#fields.hasErrors('password')}" th:errors="*{password}">Password Error</td>
+        </tr>
+        <tr>
+            <td>
+                <button type="submit">Submit</button>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

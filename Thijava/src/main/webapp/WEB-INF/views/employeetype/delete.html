@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Employeetype</title>
+</head>
+<body>
+<h1>Delete Employeetype</h1>
+<h2>Are you sure?</h2>
+<form th:action="@{/delete-employeetype}" th:object="${employeetype}" method="post">
+    <table>
+        <tr>
+            <td>Mã nhóm:</td>
+            <td><input type="text" th:field="*{id}"/></td>
+        </tr>
+        <tr>
+            <td>Mô tả nhóm:</td>
+            <td><input type="text" th:field="*{description}"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Delete employeetype"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

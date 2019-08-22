@@ -2,37 +2,91 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fae446f7-58ff-48bc-85b0-df916d68a8a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../Blog/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blog/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Blog/src/main/java/com/codegym/model/Blog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cookie/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Cookie/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cookie/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Cookie/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cookie/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Cookie/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cookie/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Cookie/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cookie/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Cookie/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Cookie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Cookie/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/java/com/codegym/controller/EmployeetypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/java/com/codegym/model/Employeetype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/java/com/codegym/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/java/com/codegym/repository/EmployeetypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/java/com/codegym/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/java/com/codegym/service/EmployeetypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/java/com/codegym/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/java/com/codegym/service/impl/EmployeetypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/webapp/WEB-INF/views/employee/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/webapp/WEB-INF/views/employee/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/webapp/WEB-INF/views/employee/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/webapp/WEB-INF/views/employee/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/webapp/WEB-INF/views/employeetype/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/webapp/WEB-INF/views/employeetype/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/webapp/WEB-INF/views/employeetype/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/webapp/WEB-INF/views/employeetype/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Thijava/src/main/webapp/WEB-INF/views/employeetype/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Validating Form Input/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Validating Form Input/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/java/com/codegym/controller/EmployeetypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/java/com/codegym/model/Employeetype.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/java/com/codegym/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/java/com/codegym/repository/EmployeetypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/java/com/codegym/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/java/com/codegym/service/EmployeetypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/java/com/codegym/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/java/com/codegym/service/impl/EmployeetypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/webapp/WEB-INF/views/employee/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/webapp/WEB-INF/views/employee/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/webapp/WEB-INF/views/employee/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/webapp/WEB-INF/views/employee/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/webapp/WEB-INF/views/employeetype/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/webapp/WEB-INF/views/employeetype/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/webapp/WEB-INF/views/employeetype/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khachsan/src/main/webapp/WEB-INF/views/employeetype/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv3/src/main/java/com/codegym/cms/controller/ProvinceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv3/src/main/java/com/codegym/cms/formatter/ProvinceFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv3/src/main/java/com/codegym/cms/model/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv3/src/main/java/com/codegym/cms/repository/ProvinceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv3/src/main/java/com/codegym/cms/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv3/src/main/java/com/codegym/cms/service/impl/ProvinceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv3/src/main/webapp/WEB-INF/views/province/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv3/src/main/webapp/WEB-INF/views/province/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv3/src/main/webapp/WEB-INF/views/province/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv3/src/main/webapp/WEB-INF/views/province/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv3/src/main/webapp/WEB-INF/views/province/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/src/Clas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/src/ChuNhat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/src/MyClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/.gradle/5.2.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Blog/.gradle/5.2.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/.gradle/5.2.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Blog/.gradle/5.2.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/.gradle/5.2.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Blog/.gradle/5.2.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/.gradle/5.2.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Blog/.gradle/5.2.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/.gradle/5.2.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Blog/.gradle/5.2.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/.gradle/5.2.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Blog/.gradle/5.2.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Blog/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/build/libs/Blog-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../Blog/build/libs/Blog-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Blog/src/main/webapp/WEB-INF/views/blog/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Blog/src/main/webapp/WEB-INF/views/blog/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validating Form Input/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../Validating Form Input/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validating Form Input/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../Validating Form Input/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validating Form Input/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Validating Form Input/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Validating Form Input/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Validating Form Input/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../spring-jpa-customer-management" beforeDir="false" afterPath="$PROJECT_DIR$/../spring-jpa-customer-management" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.gradle/4.10.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.gradle/4.10.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/build/classes/java/main/com/codegym/cms/controller/CustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/build/classes/java/main/com/codegym/cms/controller/CustomerController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/build/libs/ungdungquanlykhachhangv2-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/build/libs/ungdungquanlykhachhangv2-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/src/main/java/com/codegym/cms/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/src/main/java/com/codegym/cms/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/src/main/java/com/codegym/cms/repository/impl/CustomerRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../ungdungquanlykhachhangv2/src/main/java/com/codegym/cms/repository/impl/CustomerRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/ungdungquanlykhachhangv2-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/ungdungquanlykhachhangv2-1.0-SNAPSHOT.war" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -83,7 +137,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ungdungquanlykhachhangv2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
@@ -235,6 +289,12 @@
       <workItem from="1564109026773" duration="3781000" />
       <workItem from="1564481641500" duration="40000" />
       <workItem from="1564535413728" duration="940000" />
+      <workItem from="1564560375676" duration="367000" />
+      <workItem from="1564561413617" duration="63000" />
+      <workItem from="1564628498441" duration="687000" />
+      <workItem from="1565339141974" duration="746000" />
+      <workItem from="1565574945041" duration="43000" />
+      <workItem from="1565576330899" duration="857000" />
     </task>
     <servers />
   </component>

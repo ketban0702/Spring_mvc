@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<table border="1">
+    <tr>
+        <th>Mã nhóm</th>
+        <th>Mô tả nhóm</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <th:block th:each="employeetype : ${employeetypes}">
+        <tr>
+            <td th:text="${employeetype.id}"></td>
+            <td th:text="${employeetype.description}"></td>
+            <td><a th:href="@{/edit-employeetype/__${employeetype.id}__ }">Edit</a></td>
+            <td><a th:href="@{/delete-employeetype/__${employeetype.id}__ }">Delete</a></td>
+        </tr>
+    </th:block>
+</table>
+
+</body>
+</html>

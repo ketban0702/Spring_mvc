@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Employee</title>
+</head>
+<body>
+<h1>Create Employee</h1>
+<p>
+    <a href="/listemployee">Employee list</a>
+</p>
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<form th:action="@{/create-employee}" th:object="${employee}" method="post">
+    <table>
+        <tr>
+            <td>Họ tên:</td>
+            <td><input type="text" th:field="*{fullname}" minlength="5" maxlength="100"/></td>
+            <td th:if="${#fields.hasErrors('fullname')}" th:errors="*{fullname}">Fullname Error</td>
+        </tr>
+        <tr>
+            <td>Ngày sinh:</td>
+            <td><input type="date" th:field="*{birthday}"/></td>
+            <td th:if="${#fields.hasErrors('birthday')}" th:errors="*{birthday}">Birthday Error</td>
+        </tr>
+        <tr>
+            <td>Giới tính:</td>
+            <td>
+                <select th:field="*{sex}">
+                    <option value="Nam">Nam</option>
+                    <option value="Nữ">Nữ</option>
+                    <option value="Khác">Khác</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Số điện thoại:</td>
+            <td><input type="text" th:field="*{phone}"/></td>
+            <td th:if="${#fields.hasErrors('phone')}" th:errors="*{phone}">Phone Error</td>
+        </tr>
+        <tr>
+            <td>Số CMND:</td>
+            <td><input type="text" th:field="*{cmnd}"/></td>
+            <td th:if="${#fields.hasErrors('cmnd')}" th:errors="*{cmnd}">CMND Error</td>
+            <td>
+                <th:block th:if="${message1}">
+                    <p th:text="${message1}"></p>
+                </th:block>
+            </td>
+        </tr>
+        <tr>
+            <td>Email:</td>
+            <td><input type="text" th:field="*{email}"/></td>
+            <td th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email Error</td>
+           <td>
+               <th:block th:if="${message1}">
+                   <p th:text="${message1}"></p>
+               </th:block>
+           </td>
+        </tr>
+        <tr>
+            <td>Địa chỉ:</td>
+            <td><input type="text" th:field="*{address}" minlength="5" maxlength="100"/></td>
+            <td th:if="${#fields.hasErrors('address')}" th:errors="*{address}">Address Error</td>
+        </tr>
+        <tr>
+            <td>Employeetype:</td>
+            <td>
+                <select th:field="*{employeetype}">
+                    <option th:each="p : ${employeetypes}" th:value="${p.id}" th:text="${p.description}"></option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Create Employee"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

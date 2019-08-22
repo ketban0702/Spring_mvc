@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Employeetype</title>
+</head>
+<body>
+<h1>Edit Employeetype</h1>
+
+<th:block th:if="${message}">
+    <p th:text="${message}"></p>
+</th:block>
+<form th:action="@{/edit-employeetype}" th:object="${employeetype}" method="post">
+    <table>
+        <tr>
+            <td>Mã nhóm:</td>
+            <td><input type="text" th:field="*{id}"/></td>
+        </tr>
+        <tr>
+            <td>Mô tả nhóm:</td>
+            <td><input type="text" th:field="*{description}"/></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="submit" value="Update Employeetype"></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

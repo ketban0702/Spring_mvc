@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form th:action="@{/search}" method="post">
+    <input type="text" name="search">
+    <input type="submit" value="Search"><br>
+</form>
+<a href="/create-student">Create new student</a>
+<h1>Student</h1>
+<table border="1">
+    <tr>
+        <th>Mã học sinh</th>
+        <th>Họ tên</th>
+        <th>Giới tính</th>
+        <th>Số điện thoại</th>
+        <th>Edit</th>
+        <th>Delete</th>
+    </tr>
+    <th:block th:each="student : ${students}">
+        <tr>
+            <td th:text="${student.id}"></td>
+            <td th:text="${student.fullname}"></td>
+            <td th:text="${student.sex}"></td>
+            <td th:text="${student.phone}"></td>
+            <td><a th:href="@{/edit-student/__${student.id}__ }">Edit</a></td>
+            <td><a th:href="@{/delete-student/__${student.id}__ }">Delete</a></td>
+        </tr>
+    </th:block>
+</table>
+
+</body>
+</html>
